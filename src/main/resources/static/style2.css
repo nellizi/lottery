@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main{
+    height: auto !important;
+     width: 1000px;
+}
+.numberDiv{
+    width:80%;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.top{
+  margin:0 auto;
+  width: 1000px;
+  display: table;
+  text-align:center;
+}
+
+.top-div{
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.top-div-name{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left:10px;
+
+}
+.numberset{
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+}
+
+.table_box{
+    background-color: #9E9E9E;
+    border-radius:10px;
+    opacity:0.7;
+    margin-top:10px;
+}
+
+
+.numberset2{
+    width:380px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    background-color: #9E9E9E;
+    border-radius:10px;
+    opacity:0.7;
+}
+.lottocircle{
+    display: table;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:15px;
+    margin-right:15px;
+}
+.value{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.name{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFaa00;
+    line-height: 1.8;
+}
+p{
+    margin: 0;
+    color:white;
+}
+.blog-link{
+    text-decoration: none;
+    color:white;
+}
+
+.title{
+margin : 30px auto 10px;
+  font-size : 50px;
+  font-family: 'CWDangamAsac-Bold';
+  }
+
+.middle{
+  margin-top: 10px;
+  margin:0 auto;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+
+.table{
+  position: absolute;
+  top: 0px;
+  width: 440px;
+  height: 500px;
+}
+
+.buttons{
+  position: absolute;
+  top : 200;
+  left: 450px;
+  width: 140px;
+  height: 500px;
+}
+
+.button{
+  display: block;
+  border:0;
+  outline:0;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:20px;
+  background-color:transparent;
+
+
+}
+
+
+.resultSec{
+  position: absolute;
+   top: 0px;
+   left: 580px;
+   width: 490px;
+   height: 500px;
+}
+
+.container{
+left : 1000px;
+}
+
+.numberdiv2{
+    top: 110px;
+}
+
+.resultNumber{
+margin-top: 90px;
+}
+
+body{
+  background-image: url("/backgroundImage.jpg");
+  background-size: cover;
+
+}
+
+.footer{
+    width:100%;
+    height:70px;
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    background-color: #6a737b;
+}
