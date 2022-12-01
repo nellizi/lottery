@@ -27,7 +27,7 @@ public class MainPageController {
 
         return "main3";
     }
-    @GetMapping("/main")
+    @GetMapping("/")
     public String main(Model model) throws IOException, ParseException, org.json.simple.parser.ParseException {
 
        String data =  mainPageService.getApi();   //당첨번호 불러오기
