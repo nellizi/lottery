@@ -17,7 +17,7 @@
 	<name>lottery</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 	</properties>
