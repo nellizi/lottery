@@ -8,8 +8,7 @@
                 number[i].style="background-color:#c1d82f";
             }else if(parseInt(number[i].textContent)>=10){
                 number[i].style="background-color:#fbb034";
-            }
-            else{
+            }else{
                 number[i].style="background-color:#ff0000";
             }
         }
@@ -34,6 +33,7 @@
         if(chkCnt > 5){
             alert("최대 5개까지 선택할 수 있습니다.");
             obj.checked=false;
+            document.getElementById(num).disabled =false;
             return false;
         }
     }
