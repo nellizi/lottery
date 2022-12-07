@@ -35,7 +35,7 @@ public class MainPageController {
 
         model.addAttribute("numbers", numbers);  //numbers = 당첨번호
 
-        return "/main3";
+        return "main3";
     }
 
     public NumberEntity json(String data) throws ParseException, org.json.simple.parser.ParseException {
@@ -77,7 +77,7 @@ public class MainPageController {
 
             System.out.println(pickedNumberEntityList.get(0));
 
-            return "/main3 :: #resultDiv";
+            return "main3 :: #resultDiv";
 
         }
 
